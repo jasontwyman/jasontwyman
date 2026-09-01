@@ -11,7 +11,7 @@ Security+ certified IT and cybersecurity candidate with the Google Cybersecurity
 | **Target roles** | Help Desk / IT Support; SOC Analyst I |
 | **Credentials** | CompTIA Security+; Google Cybersecurity Professional Certificate |
 | **Experience** | 8+ years in incident operations, investigation, escalation, documentation, and leadership |
-| **Strengths** | Calm troubleshooting, clear reporting, customer communication, and evidence-based analysis |
+| **Strengths** | Structured troubleshooting, clear reporting, customer communication, and evidence-based analysis |
 
 ## Technical Skills
 
@@ -26,7 +26,7 @@ Security+ certified IT and cybersecurity candidate with the Google Cybersecurity
 
 - Self-hosted osTicket lab with seven synthetic service-desk case studies and five reusable runbooks.
 - Covers ticket triage, documentation, escalation, user communication, and controlled Active Directory support scenarios.
-- **Status:** Sanitized root history is published; a fresh clone contains one clean commit, the retired evidence blob is unreachable, and current-tree secret scans pass.
+- **Status:** Seven documented support cases, five reusable runbooks, Active Directory evidence, and osTicket interface evidence are published.
 
 ### [Splunk Mimikatz Detection Lab](https://github.com/jasontwyman/splunk-mimikatz-detection-lab)
 
