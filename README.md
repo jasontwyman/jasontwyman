@@ -2,47 +2,36 @@
 
 **Help Desk / IT Support | SOC Analyst I**
 
-Security+ certified IT and cybersecurity candidate with the Google Cybersecurity Professional Certificate and 8+ years of incident operations and leadership experience. Brings disciplined triage, documentation, escalation, customer communication, and team leadership to technical support and security operations.
-
-## Hiring Snapshot
-
-| | |
-|---|---|
-| **Target roles** | Help Desk / IT Support; SOC Analyst I |
-| **Credentials** | CompTIA Security+; Google Cybersecurity Professional Certificate |
-| **Experience** | 8+ years in incident operations, investigation, escalation, documentation, and leadership |
-| **Strengths** | Structured troubleshooting, clear reporting, customer communication, and evidence-based analysis |
+CompTIA Security+ certified, with the Google Cybersecurity Professional Certificate and hands-on home-lab experience. More than eight years of physical-security incident operations and leadership developed transferable strengths in triage, documentation, escalation, customer communication, and team coordination.
 
 ## Technical Skills
 
-- **IT support:** ticket triage, troubleshooting, escalation, customer communication, Windows, Linux, Active Directory, Group Policy, DNS, DHCP, VPNs, VLANs, and VirtualBox
-- **Security operations:** alert triage, incident documentation, log and network traffic analysis, SIEM and IDS fundamentals, and MITRE ATT&CK mapping
-- **Tools:** osTicket, Splunk, Google Chronicle, Wireshark, tcpdump, Nmap, Suricata, Git, and GitHub
-- **Scripting and data:** Python and SQL
+- **IT support labs:** ticket triage and documentation, Windows, Linux, Active Directory, Group Policy, DNS, DHCP, VPNs, VLANs, and VirtualBox
+- **Security labs:** incident documentation, log and network traffic analysis, SIEM and IDS fundamentals, and MITRE ATT&CK mapping
+- **Tools used:** osTicket, Splunk, Google Chronicle, Wireshark, tcpdump, Nmap, Suricata, Git, and GitHub
+- **Languages:** Python and SQL
 
 ## Projects
 
 ### [Help Desk & IT Support Lab — osTicket + Active Directory](https://github.com/jasontwyman/helpdesk-ticket-lab)
 
-- Self-hosted osTicket lab with seven synthetic service-desk case studies and five reusable runbooks.
-- Covers ticket triage, documentation, escalation, user communication, and controlled Active Directory support scenarios.
-- **Status:** Seven documented support cases, five reusable runbooks, Active Directory evidence, and osTicket interface evidence are published.
-
-### [Splunk Mimikatz Detection Lab](https://github.com/jasontwyman/splunk-mimikatz-detection-lab)
-
-- Splunk workflow using a public PowerShell Empire and Mimikatz simulation dataset, with ingestion troubleshooting, dashboards, and MITRE ATT&CK mapping.
-- **Status:** Detection templates are disabled; clean end-to-end revalidation is pending.
-
-### [Network Incident Investigation Lab](https://github.com/jasontwyman/network-incident-investigation-lab)
-
-- Simulated Active Directory attack-chain investigation covering reconnaissance, operator-noted LLMNR/NBT-NS poisoning, NetNTLMv2 challenge-response capture, and attempted remote administration.
-- Separates attacker-side observations from target-side confirmation.
-- **Status:** SMB cause analysis and raw Suricata, packet, and endpoint evidence gaps remain.
+- Self-hosted osTicket and Active Directory lab with seven synthetic ticket narratives and five reusable runbooks.
+- Three cases are executed Active Directory exercises; one is a configuration diagnostic, and three are illustrative support scenarios.
 
 ### [Active Directory Home Lab](https://github.com/jasontwyman/active-directory-home-lab)
 
-- Windows Server 2025 lab covering AD DS, AD-integrated DNS, organizational units, users, groups, delegated access, and Group Policy.
-- **Status:** Server-side DNS registration and DC Locator are validated; GPO and client-side validation remain pending.
+- Windows Server 2025 lab covering AD DS, AD-integrated DNS, organizational units, users, security groups, and Group Policy.
+- Server-side DNS and DC Locator checks are complete; workstation domain join and client-side GPO validation remain pending.
+
+### [Splunk Mimikatz Detection Lab](https://github.com/jasontwyman/splunk-mimikatz-detection-lab)
+
+- Splunk configuration for reviewing a public PowerShell Empire and Mimikatz simulation dataset, including dashboards and MITRE ATT&CK-mapped searches.
+- The detection searches remain disabled while clean end-to-end revalidation is pending.
+
+### [Network Incident Investigation Lab](https://github.com/jasontwyman/network-incident-investigation-lab)
+
+- Simulated Active Directory investigation covering reconnaissance, a reported fallback name-resolution poisoning path, NetNTLMv2 challenge-response activity, and attempted remote administration.
+- The available artifacts do not independently verify the name-resolution path, offline recovery result, or target-side code execution; raw packet, Suricata, and endpoint exports remain pending.
 
 ## Contact
 
@@ -50,4 +39,4 @@ Security+ certified IT and cybersecurity candidate with the Google Cybersecurity
 
 ---
 
-*All security testing shown in this portfolio uses fictitious or public data in authorized, isolated lab environments. Sensitive information and unrelated third-party data are excluded or sanitized.*
+*The labs use fictitious or public data in authorized, isolated environments. No production or employer data is included.*
