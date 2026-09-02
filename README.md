@@ -21,7 +21,7 @@ CompTIA Security+ certified, with the Google Cybersecurity Professional Certific
 ### [Active Directory Home Lab](https://github.com/jasontwyman/active-directory-home-lab)
 
 - Deployed a Windows Server 2025 domain controller and configured AD DS, AD-integrated DNS, organizational units, users, role-based security groups, and Group Policy.
-- Demonstrates server-side administration, DC Locator validation, account troubleshooting, group-membership analysis, and GPO scope analysis.
+- Joined and validated a Windows 11 Pro client, confirmed Netlogon secure-channel health, tested role-based SMB drive access, and split a mixed GPO into separately scoped computer and user policies with client-side evidence.
 
 ### [Splunk Mimikatz Detection Lab](https://github.com/jasontwyman/splunk-mimikatz-detection-lab)
 
