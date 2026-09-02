@@ -15,27 +15,35 @@ CompTIA Security+ certified, with the Google Cybersecurity Professional Certific
 
 ### [Help Desk & IT Support Lab — osTicket + Active Directory](https://github.com/jasontwyman/helpdesk-ticket-lab)
 
-- Self-hosted osTicket and Active Directory lab with seven synthetic ticket narratives and five reusable runbooks.
-- Three cases are executed Active Directory exercises; one is a configuration diagnostic, and three are illustrative support scenarios.
+- Built and configured a self-hosted osTicket environment with seven synthetic ticket records, five reusable troubleshooting runbooks, and three executed Active Directory support exercises.
+- Includes ticket-style investigation, user communication, escalation decisions, a verification matrix, and an artifact-level evidence manifest.
 
 ### [Active Directory Home Lab](https://github.com/jasontwyman/active-directory-home-lab)
 
-- Windows Server 2025 lab covering AD DS, AD-integrated DNS, organizational units, users, security groups, and Group Policy.
-- Server-side DNS and DC Locator checks are complete; workstation domain join and client-side GPO validation remain pending.
+- Deployed a Windows Server 2025 domain controller and configured AD DS, AD-integrated DNS, organizational units, users, role-based security groups, and Group Policy.
+- Demonstrates server-side administration, DC Locator validation, account troubleshooting, group-membership remediation, and GPO scope analysis.
 
 ### [Splunk Mimikatz Detection Lab](https://github.com/jasontwyman/splunk-mimikatz-detection-lab)
 
-- Splunk configuration for reviewing a public PowerShell Empire and Mimikatz simulation dataset, including dashboards and MITRE ATT&CK-mapped searches.
-- The detection searches remain disabled while clean end-to-end revalidation is pending.
+- Built a portable Splunk app for reviewing a public PowerShell Empire and Mimikatz simulation dataset, including a six-panel dashboard and two MITRE ATT&CK-mapped detection searches.
+- Packaged reproducible source-measurement and repository-validation scripts; alert scheduling is intentionally disabled for the static historical dataset.
 
 ### [Network Incident Investigation Lab](https://github.com/jasontwyman/network-incident-investigation-lab)
 
-- Simulated Active Directory investigation covering reconnaissance, a reported fallback name-resolution poisoning path, NetNTLMv2 challenge-response activity, and attempted remote administration.
-- The available artifacts do not independently verify the name-resolution path, offline recovery result, or target-side code execution; raw packet, Suricata, and endpoint exports remain pending.
+- Investigated a simulated Active Directory incident covering reconnaissance, NTLM authentication activity, credential-access risk, and attempted remote administration in an isolated lab.
+- Produced an incident report and an 18-image evidence manifest that distinguish observations, analyst interpretation, attacker-side output, and target-side validation requirements.
+
+## Resumes
+
+- [Help Desk / IT Support resume](resumes/Jason_Twyman_Help_Desk_Resume.pdf)
+- [SOC Analyst resume](resumes/Jason_Twyman_SOC_Analyst_Resume.pdf)
+
+The public copies omit my telephone number. A complete application version is available directly.
 
 ## Contact
 
 - [LinkedIn — Jason Twyman](https://www.linkedin.com/in/jasontwyman)
+- Email: [jasontwyman_84@yahoo.com](mailto:jasontwyman_84@yahoo.com)
 
 ---
 
