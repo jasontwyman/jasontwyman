@@ -1,6 +1,6 @@
 # Jason Twyman
 
-**Help Desk / IT Support | SOC Analyst I**
+**IT Support / Help Desk | Security+ Certified | SOC Analyst Candidate**
 
 CompTIA Security+ certified, with the Google Cybersecurity Professional Certificate and hands-on home-lab experience. More than eight years of physical-security incident operations and leadership developed transferable strengths in triage, documentation, escalation, customer communication, and team coordination.
 
@@ -21,7 +21,7 @@ CompTIA Security+ certified, with the Google Cybersecurity Professional Certific
 ### [Active Directory Home Lab](https://github.com/jasontwyman/active-directory-home-lab)
 
 - Deployed a Windows Server 2025 domain controller and configured AD DS, AD-integrated DNS, organizational units, users, role-based security groups, and Group Policy.
-- Demonstrates server-side administration, DC Locator validation, account troubleshooting, group-membership remediation, and GPO scope analysis.
+- Demonstrates server-side administration, DC Locator validation, account troubleshooting, group-membership analysis, and GPO scope analysis.
 
 ### [Splunk Mimikatz Detection Lab](https://github.com/jasontwyman/splunk-mimikatz-detection-lab)
 
