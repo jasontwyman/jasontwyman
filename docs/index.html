@@ -187,6 +187,17 @@
     .project a { margin-top: auto; color: var(--blue); font-weight: 800; text-decoration: none; }
     .project a:hover, .project a:focus-visible { text-decoration: underline; }
 
+    .evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+    .evidence-card { display: flex; flex-direction: column; margin: 0; border: 1px solid var(--border); border-radius: 1rem; overflow: hidden; background: var(--panel); }
+    .evidence-preview { display: grid; place-items: center; aspect-ratio: 16 / 9; padding: 0.75rem; background: #080e15; }
+    .evidence-preview img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .evidence-preview:hover { background: var(--panel-light); }
+    .evidence-preview:focus-visible { outline: 3px solid var(--blue); outline-offset: -4px; }
+    .evidence-card figcaption { display: flex; flex: 1; flex-direction: column; padding: 1.25rem; }
+    .evidence-card h3 { margin: 0; font-size: 1.15rem; }
+    .evidence-card p { margin: 0.6rem 0 1rem; color: var(--muted); }
+    .evidence-card figcaption a { margin-top: auto; color: var(--blue); font-weight: 750; }
+
     .contact {
       display: flex;
       justify-content: space-between;
@@ -207,6 +218,7 @@
       nav { display: none; }
       .hero { grid-template-columns: 1fr; min-height: auto; padding: 3.5rem 0; }
       .projects { grid-template-columns: 1fr; }
+      .evidence-grid { grid-template-columns: 1fr; }
       .contact { align-items: flex-start; flex-direction: column; }
     }
   </style>
@@ -258,7 +270,7 @@
         <article class="project">
           <div class="tags"><span class="tag">osTicket</span><span class="tag">Active Directory</span></div>
           <h3>Help Desk &amp; IT Support Lab</h3>
-          <p>Self-hosted ticketing environment with synthetic ticket records, reusable troubleshooting runbooks, and executed Active Directory support exercises.</p>
+          <p>Self-hosted osTicket environment with 7 synthetic ticket records, 5 reusable troubleshooting runbooks, and 3 executed Active Directory support exercises.</p>
           <a href="https://github.com/jasontwyman/helpdesk-ticket-lab">Open repository →</a>
         </article>
 
@@ -282,6 +294,33 @@
           <p>Isolated Active Directory incident scenario with reconnaissance, NTLM authentication activity, credential-access risk analysis, and evidence-focused reporting.</p>
           <a href="https://github.com/jasontwyman/network-incident-investigation-lab">Open repository →</a>
         </article>
+      </div>
+    </section>
+
+    <section class="shell" id="evidence" aria-labelledby="evidence-title">
+      <h2 id="evidence-title">Selected evidence</h2>
+      <p class="section-intro">Two published lab captures. Select an image to open it full size; follow the validation notes for context and limitations.</p>
+      <div class="evidence-grid">
+        <figure class="evidence-card">
+          <a class="evidence-preview" href="assets/evidence/splunk-dashboard.webp" aria-label="Open full-size Splunk dashboard evidence">
+            <img src="assets/evidence/splunk-dashboard.webp" width="1342" height="637" loading="lazy" decoding="async" alt="Splunk dashboard showing event volume over time, top event IDs, and Windows logon activity from the public OTRF dataset.">
+          </a>
+          <figcaption>
+            <h3>Splunk telemetry overview</h3>
+            <p>Event volume, top event IDs, and Windows logon activity from a historical OTRF dataset replay.</p>
+            <a href="https://github.com/jasontwyman/splunk-mimikatz-detection-lab/blob/b5a90fbc6bc7dc5abc2ee6f387c4face52d843a7/README.md#public-evidence-boundary">Splunk validation notes →</a>
+          </figcaption>
+        </figure>
+        <figure class="evidence-card">
+          <a class="evidence-preview" href="assets/evidence/ad-share-validation.webp" aria-label="Open full-size Active Directory share-access evidence">
+            <img src="assets/evidence/ad-share-validation.webp" width="960" height="277" loading="lazy" decoding="async" alt="CLIENT01 PowerShell results showing Create: True, Read matched: True, and Delete: True for the lab user's mapped ITShare.">
+          </a>
+          <figcaption>
+            <h3>Windows client share-access check</h3>
+            <p>CLIENT01 reports successful file creation, content read-back, and deletion on the lab's mapped share.</p>
+            <a href="https://github.com/jasontwyman/active-directory-home-lab/blob/9cafa9f09a19c8144ea4f67c04641c41558e4362/README.md#client01-domain-policy-and-mapped-drive-validation">Active Directory validation notes →</a>
+          </figcaption>
+        </figure>
       </div>
     </section>
 
