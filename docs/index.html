@@ -18,6 +18,8 @@
   <meta name="twitter:image" content="https://jasontwyman.github.io/jasontwyman/assets/portfolio-thumbnail.png">
   <meta name="theme-color" content="#071525">
   <title>Jason Twyman | IT Support & Cybersecurity Portfolio</title>
+  <link rel="icon" href="assets/brand/favicon.ico" type="image/x-icon" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="assets/brand/favicon-32.png" type="image/png" sizes="32x32">
   <style>
     :root {
       --navy: #071525;
@@ -70,14 +72,12 @@
     }
 
     .monogram {
-      display: grid;
-      width: 2.5rem;
-      height: 2.5rem;
-      place-items: center;
-      border: 1px solid var(--blue);
-      border-radius: 0.7rem;
-      background: rgba(56, 189, 248, 0.1);
-      color: var(--blue);
+      display: block;
+      width: 2.75rem;
+      height: 2.75rem;
+      flex-shrink: 0;
+      border-radius: 0.6rem;
+      object-fit: contain;
     }
 
     nav { display: flex; gap: 1rem; }
@@ -226,7 +226,7 @@
 <body>
   <header class="shell">
     <a class="brand" href="#top" aria-label="Jason Twyman portfolio home">
-      <span class="monogram" aria-hidden="true">JT</span>
+      <img class="monogram" src="assets/brand/jt-logo.webp" width="44" height="44" alt="" aria-hidden="true" decoding="async">
       <span>Jason Twyman</span>
     </a>
     <nav aria-label="Primary navigation">
