@@ -25,8 +25,8 @@ CompTIA Security+ certified, with the Google Cybersecurity Professional Certific
 
 ### [Splunk Mimikatz Detection Lab](https://github.com/jasontwyman/splunk-mimikatz-detection-lab)
 
-- Built a portable Splunk app for reviewing a public PowerShell Empire and Mimikatz simulation dataset, including a six-panel dashboard and two MITRE ATT&CK-mapped detection searches.
-- Packaged reproducible source-measurement and repository-validation scripts; alert scheduling is intentionally disabled for the static historical dataset.
+- Built a portable Splunk app validated against 6,026 public OTRF telemetry events in an isolated VM, with a dashboard and two MITRE ATT&CK-mapped detection searches.
+- Published sanitized runtime evidence, a reproducible build guide, and repository-validation scripts; alert scheduling is intentionally disabled for the static historical dataset, and detection results are analyst review leads rather than proof of compromise.
 
 ### [Network Incident Investigation Lab](https://github.com/jasontwyman/network-incident-investigation-lab)
 
