@@ -2,7 +2,7 @@
 
 **IT Support / Help Desk | Security+ Certified | SOC Analyst Candidate**
 
-CompTIA Security+ certified, with the Google Cybersecurity Professional Certificate and hands-on home-lab experience. More than eight years of physical-security incident operations and leadership developed transferable strengths in triage, documentation, escalation, customer communication, and team coordination.
+CompTIA Security+ certified IT Support and SOC Analyst I candidate with documented home labs in Active Directory, Windows, Linux, osTicket, and Splunk. I also hold the Google Cybersecurity Professional Certificate and am studying for the Cisco CCNA.
 
 ## Technical Skills
 
